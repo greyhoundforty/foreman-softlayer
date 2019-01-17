@@ -12,3 +12,13 @@ locale/*/*.pox
 *.lock
 .swp
 *.gem
+*.tfplan
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
