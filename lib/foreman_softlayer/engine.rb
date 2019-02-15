@@ -11,7 +11,7 @@ module ForemanSoftlayer
 
     # Add any db migrations
     initializer 'foreman_softlayer.load_app_instance_data' do |app|
-      app.config.paths['db/migrate'] += ForemanSoftlayer::Engine.paths['db/migrate'].existent
+      app.config.paths['db/migrate'] = ForemanSoftlayer::Engine.paths['db/migrate'].existent
     end
 
     initializer 'foreman_softlayer.register_plugin', after: :finisher_hook do |_app|
