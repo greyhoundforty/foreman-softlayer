@@ -17,6 +17,6 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'deface'
   s.add_dependency 'fog-softlayer', '>= 0.4.6'
-  s.add_development_dependency 'rubocop'
-  s.add_development_dependency 'rdoc'
+  s.add_production_dependency 'rubocop'
+  s.add_production_dependency 'rdoc'
 end
