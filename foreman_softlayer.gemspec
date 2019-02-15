@@ -5,10 +5,10 @@ Gem::Specification.new do |s|
   s.name        = 'foreman_softlayer'
   s.version     = ForemanSoftlayer::VERSION
   s.date        = Date.today.to_s
-  s.authors     = ['James Stuart']
-  s.email       = ['software@jstuart.org']
-  s.homepage    = 'https://github.com/jstuart/foreman-softlayer'
-  s.summary     = 'Provision and manage Softlayer resources from Foreman.'
+  s.authors     = ['Ryan Tiffany']
+  s.email       = ['ryantiffany@fastmail.com']
+  s.homepage    = 'https://github.com/greyhoundforty/foreman-softlayer'
+  s.summary     = 'Softlayer and Foreman.'
   # also update locale/gemspec.rb
   s.description = 'Provision and manage Softlayer resources from Foreman.'
 
